@@ -12,5 +12,7 @@ To use this controller, you need to
 
 ADD USER:
 To add user with http-request, enter "http://yourtrojanserveripordomain:3000/addUser?password=123&duration=30" on explorer or with requests
+
 Pathname = addUser
+
 params = password(englishornumber), duration(number, days of lease, password will automatically expired when lease ends)
