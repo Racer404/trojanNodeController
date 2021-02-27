@@ -11,6 +11,7 @@ To use this controller, you need to
 2. start nodeServer.js with "node nodeServer.js"
 
 ADD USER:
+
 To add user with http-request, enter "http://yourtrojanserveripordomain:3000/addUser?password=123&duration=30" on explorer or with requests
 
 Pathname = addUser
