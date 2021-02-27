@@ -1,0 +1,11 @@
+[Unit]
+Description=Trojan Service
+Requires=network.target
+After=network.target
+
+[Service]
+Type=simple
+ExecStart= EDIT THIS LINE! e.g. /home/user/trojan -c /home/user/trojan/server.json
+
+[Install]
+WantedBy=multi-user.target
